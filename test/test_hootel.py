@@ -15,6 +15,7 @@ class TestHootel(object):
         options.add_experimental_option("detach", True)
         self.browser = webdriver.Chrome(options=options)
         print(self.browser.get_window_rect())
+        #print(self.browser.get_window_rect())
         self.browser.get(URL)
         #self.browser.maximize_window()
 
